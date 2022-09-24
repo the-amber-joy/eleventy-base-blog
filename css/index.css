@@ -176,6 +176,9 @@ code {
   line-height: 100%;
   text-align: right;
 }
+.postlist-item-draft::before{
+  content: "\270D";
+}
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
