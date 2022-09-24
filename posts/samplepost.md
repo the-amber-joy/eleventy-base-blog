@@ -1,10 +1,11 @@
 ---
-title: FUTURE POST!
-description: This is a post for my 100th birthday.
-date: 2077-11-06
-scheduled: 2077-11-06
-tags: birthday
+title: This is my first post.
+description: This is a post on My Blog about agile frameworks.
+date: 2018-05-01
+tags:
+  - sample tag
 layout: layouts/post.njk
+# draft: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt ultricies consectetur. Pellentesque ante orci, cursus pretium accumsan a, iaculis nec dui. Duis enim nisl, egestas quis neque congue, blandit sollicitudin justo. Vestibulum finibus bibendum nunc, eu ullamcorper nunc iaculis vitae. Morbi et neque turpis.
 
@@ -24,7 +25,7 @@ console.log('Test');
 
 ## Section Header
 
-Links to other posts:
+Here is how we make links to other posts:
 <a href="{{ '/posts/secondpost/' | url }}">Second post</a>
 <a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
 
