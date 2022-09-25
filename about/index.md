@@ -1,11 +1,11 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: About Me
-templateClass: tmpl-post
+templateClass: tmpl-base
 eleventyNavigation:
   key: About Me
   order: 3
 date: Last Modified
 ---
 
-I am a person who likes various stuff and things.
+I am a person who likes various things and some stuff.

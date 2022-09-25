@@ -1,6 +1,8 @@
 <ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
   {% for post in postslist | reverse %}
-    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}{% if post.data.draft %} postlist-item-draft{% endif %}">
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+      <span class="{% if post.data.isFuturePost %} postlist-item-future{% endif %}"></span>
+      <span class="{% if post.data.draft %} postlist-item-draft{% endif %}"></span>
       <a href="{{ post.url | url }}" class="postlist-link">
         {% if post.data.title %}{{ post.data.title }}
         {% else %}

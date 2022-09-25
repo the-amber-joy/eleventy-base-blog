@@ -2,9 +2,9 @@
   "title": "Amber Joy",
   "url": "https://the-amber-joy.com/",
   "language": "en",
-  "description": "My unprofessional stuff.",
+  "description": "Personal site of Amber Joy",
   "feed": {
-    "subtitle": "My unprofessional stuff.",
+    "subtitle": "Amber Joy's Blog Feed",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://the-amber-joy.com/"
@@ -14,7 +14,7 @@
     "url": "https://the-amber-joy.com/feed/feed.json"
   },
   "author": {
-    "name": "Amber Joy",
+    "name": "Amber",
     "email": "contact@the-amber-joy.com",
     "url": "https://the-amber-joy.com/about/"
   }
