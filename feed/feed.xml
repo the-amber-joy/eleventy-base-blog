@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Amber Joy</title>
+	<subtitle>Amber Joy&#39;s Blog Feed</subtitle>
+	
+	<link href="https://the-amber-joy.com/feed/feed.xml" rel="self"/>
+	<link href="https://the-amber-joy.com/"/>
+	<updated>2022-09-25T22:52:51Z</updated>
+	<id>https://the-amber-joy.com/</id>
+	<author>
+		<name>Amber</name>
+		<email>contact@the-amber-joy.com</email>
+	</author>
+</feed>
